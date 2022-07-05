@@ -1,0 +1,257 @@
+@media (max-width: 915px){
+  .login-background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    .login-nav{
+      height: 90px;
+      a{
+        height: inherit;
+        width: inherit;
+        display: flex;
+        justify-content:flex-start;
+        padding: 10px 19px;
+        img{
+          width: 80px;
+          height: 45px;
+          left: 20px;
+        }
+      }
+    }
+    .form-box{
+      height: 500px;
+      background-color: rgba(0,0,0,.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2{
+        width: 330px;
+        color: white;
+        font-size: 32px;
+        // font-weight: 700;
+        margin-bottom: 28px;
+      }
+      form{
+        .log{
+          min-height: 50px;
+          min-width: 314px;
+          background-color: #333;
+          border-radius: 4px;
+          border: none;
+          padding: 0px 20px 0px;
+          margin-bottom: 20px;
+          color: white;
+        }
+        .emailError{
+          font-size: 15px;
+          color: orange;
+        }
+        button{
+          background-color: #e50914;
+          height: 50px;
+          width: 314px;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          margin: 24px 0 12px;
+        }
+        .helpers{
+          color: #b3b3b3;
+          font-size: 15px;
+          // font-weight: 500;
+          display: flex;
+          justify-content: space-between;
+          .remember{
+            .checkbox{
+            -ms-transform: scale(1.4); /* IE */
+            -moz-transform: scale(1.4); /* FF */
+            -webkit-transform: scale(1.4); /* Safari and Chrome */
+            -o-transform: scale(1.4); /* Opera */
+            transform: scale(1.4);
+            }
+            label{
+              margin-left: 8px;
+            }
+          }
+          
+          a{
+            text-decoration: none;
+            color: inherit;
+          }
+        }
+      }
+      .second-part-login{
+        color: #737373;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        max-width: 370px;
+        padding: 20px 0 0 26px;
+        .fb-login{
+          height: 34px;
+          img{
+            height: 20px;
+            width: 20px;
+          }
+          label{
+            font-size: 13px;
+            margin-left: 8px;
+          }
+        }
+        .new-to-netflix{
+          font-size: 16px;
+          margin-top: 16px;
+        }
+        .captcha{
+          font-size: 13px;
+        }
+        .sign-up-now{
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+    hr{
+      background-color: #f3f3f3;
+    }
+    .ffeet{
+      background-color: inherit;
+      color: #737373;
+      padding: 0 0 0 26px;
+      .faq , .cookie{
+        font-size: 13px;
+      }
+      .cookie{
+        margin-left: 105px;
+      }
+  }
+  }
+}
+
+@media (min-width: 916px) {
+  .login-background{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.73)), url('../../assets/GB-en-20220307-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .login-nav{
+      width: 100vw;
+      height: 90px;
+      a{
+        width: inherit;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        margin-left: 25px;
+        img{
+          width: 167px;
+          height: 45px;
+          left: 20px;
+        }
+      }
+    }
+    .form-box{
+      width: 450px;
+      height: 660px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(0,0,0,.7);
+      padding: 60px 61px 40px;
+      h2{
+        width: 330px;
+        color: white;
+        font-size: 32px;
+        // font-weight: 700;
+        margin-bottom: 28px;
+      }
+      form{
+        .log{
+          height: 50px;
+          width: 314px;
+          background-color: #333;
+          border-radius: 4px;
+          border: none;
+          padding: 8px 20px 0;
+          margin-bottom: 16px;
+          color: white;
+        }
+        .emailError{
+          font-size: 15px;
+          color: orange;
+        }
+        button{
+          background-color: #e50914;
+          height: 50px;
+          width: 314px;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          margin: 24px 0 12px;
+        }
+      }
+        .helpers{
+          color: #b3b3b3;
+          font-size: 15px;
+          // font-weight: 500;
+          display: flex;
+          justify-content: space-between;
+          .remember{
+            .checkbox{
+            -ms-transform: scale(1.4); /* IE */
+            -moz-transform: scale(1.4); /* FF */
+            -webkit-transform: scale(1.4); /* Safari and Chrome */
+            -o-transform: scale(1.4); /* Opera */
+            transform: scale(1.4);
+            }
+            label{
+              margin-left: 8px;
+            }
+          }
+          
+          a{
+            text-decoration: none;
+            color: inherit;
+          }
+        }
+      }
+      .second-part-login{
+        color: #737373;
+        font-weight: 500;
+        margin-top: 50px;
+        .fb-login{
+          height: 34px;
+          img{
+            height: 20px;
+            width: 20px;
+          }
+          label{
+            font-size: 13px;
+            margin-left: 8px;
+          }
+        }
+        .new-to-netflix{
+          font-size: 16px;
+          margin-top: 16px;
+        }
+        .captcha{
+          font-size: 13px;
+        }
+        .sign-up-now{
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  
+  .ffeet{
+      background-color: rgba(0,0,0,.7);
+      
+  }
+}
+

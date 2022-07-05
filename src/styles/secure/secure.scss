@@ -1,0 +1,146 @@
+@media (max-width: 915px){
+  .nav{
+    width: 100vw;
+    height: 90px;
+    border: 2px solid rgb(228, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    a{
+      display: flex;
+      align-items: center;
+      margin-left: 25px;
+      text-decoration: none;
+      img{
+        width: 80px;
+        height: 45px;
+        left: 20px;
+      }
+    }
+    h2{
+      color: #333;
+      font-size: 19px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      margin-right: 25px;
+    }
+  }
+  
+  .body{
+    height: calc(100vh - 255px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+      height: 100px;
+      width: 100px;
+    }
+    .step{
+      margin-top: 20px;
+    }
+    .secure{
+      margin-bottom: 20px;
+    }
+    .tocomplete{
+      margin-bottom: 20px;
+      .todo{
+        display: flex;
+        .fa-check{
+          color: red;
+        }
+        p{
+          margin-left: 10px;
+        }
+      }
+    }
+    .secureaccount{
+      height: 50px;
+      width: 314px;
+      background-color: #e50914;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+  }
+  .fff{
+    background-color: #e6e4e4;
+    color: #757575;
+    padding: 20px 0 0 26px;
+    .faq , .cookie{
+      font-size: 13px;
+    }
+    .cookie{
+      margin-left: 105px;
+    }
+}
+}
+
+@media (min-width: 916px){
+  .nav{
+    width: 100vw;
+    height: 90px;
+    border: 2px solid rgb(228, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    a{
+      display: flex;
+      align-items: center;
+      margin-left: 25px;
+      text-decoration: none;
+      img{
+        width: 167px;
+        height: 45px;
+        left: 20px;
+      }
+    }
+    h2{
+      color: #333;
+      font-size: 19px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      margin-right: 25px;
+    }
+  }
+  
+  .body{
+    height: calc(100vh - 255px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+      height: 100px;
+      width: 100px;
+    }
+    .step{
+      margin-top: 20px;
+    }
+    .secure{
+      margin-bottom: 20px;
+    }
+    .tocomplete{
+      margin-bottom: 20px;
+      .todo{
+        display: flex;
+        .fa-check{
+          color: red;
+        }
+        p{
+          margin-left: 10px;
+        }
+      }
+    }
+    .secureaccount{
+      height: 50px;
+      width: 314px;
+      background-color: #e50914;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+  }
+  
+}
+

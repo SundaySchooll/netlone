@@ -1,0 +1,102 @@
+@media (min-width: 916px){
+  .body-1{
+    height: calc(100vh - 255px);
+    display: flex;
+    flex-direction: column;
+    .center{
+      margin: 50px auto 0;
+    }
+    .cards{
+      height: 25px;
+      width: 39px;
+      display: flex;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+    .binfo{
+      height: 60px;
+      width: 440px;
+      margin-bottom: 10px;
+    }
+    .binfo2{
+      display: flex;
+      width: 215px;
+      height: 60px;
+      margin: 0 10px 10px 0;
+    }
+  
+  .update-billing{
+    height: 60px;
+    width: 440px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  footer{
+    p{
+      margin-right: 100px;
+      color: #757575;
+    }
+    .ff{
+      padding: 30px 0 20px 70px;
+    }
+    height: 165px;
+    width: 100vw;
+    background-color: #F3F3F3;
+    .contact-us{
+      font-size: 16px;
+    }
+    .faq{
+      display: flex;
+      font-size: 13px;
+    }
+    .cookie{
+      display: flex;
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 915px) {
+  .body-1{
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    .center{
+      margin: 50px auto 0;
+    }
+    .cards{
+      height: 25px;
+      width: 39px;
+      display: flex;
+      margin-bottom: 10px;
+    }
+  }
+  
+    .binfo{
+      height: 50px;
+      width: 250px;
+      margin-bottom: 10px;
+    }
+    .binfo2{
+      display: flex;
+      width: 120px;
+      height: 60px;
+      margin: 0 10px 10px 0;
+    }
+  
+  .update-billing{
+    height: 60px;
+    width: 250px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  
+}
